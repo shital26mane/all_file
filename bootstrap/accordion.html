@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap componen accordion</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="accordion" id="accordionid">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading">
+                            <button class=" btn btn-info accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">click here</button>
+                        </h3>
+                        <div class="accordion-collapse collapse show" id="collapse1" data-bs-parent="#accordionid">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, cupiditate.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading">
+                            <button class=" btn btn-info accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">click here</button>
+                        </h3>
+                        <div class="accordion-collapse collapse show" id="collapse2" data-bs-parent="#accordionid">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, cupiditate.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- <script src="/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
