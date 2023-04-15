@@ -1,0 +1,25 @@
+p::before{
+	content:'Lorem Ipsum';
+	font-size:33px;
+	font-weight:bold;
+	color:red;
+}
+a::after{
+	content:'click here';
+	font-size:33px;
+	font-weight:bold;
+	color:gray;
+	background-color:yellow;
+}
+p::first-line{
+	font-size:25px;
+	color:red;
+	text-transform:capitalize;
+}
+p::first-letter{
+	font-size:55px;
+	color:teal;
+}
+div{
+	background-color:pink;
+}

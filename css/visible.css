@@ -1,0 +1,11 @@
+p{
+	visibility:hidden;
+}
+
+h1:hover+p{
+	visibility:initial;
+}
+
+td{
+	visibility:collapse;
+}

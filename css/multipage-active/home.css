@@ -1,0 +1,23 @@
+nav{
+	background-color:yellow;
+	height:100%;
+	width:100%;
+}
+li{
+	display:inline-block;
+	font-size:25px;
+	margin:20px;
+}
+.active{
+	color:red;
+	background-color:blue;
+	border-radius:0px 10px 0px 10px;
+	padding:10px;
+}
+.l:hover{
+	color:white;
+	background-color:gray;
+	padding:10px;
+	border-radius:0px 10px 0px 10px;
+	
+}

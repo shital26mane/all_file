@@ -1,0 +1,20 @@
+div{
+	height:300%;
+	width:100%;
+    color:pink;
+    background-attachment:fixed;
+	letter-spacing:5px;
+	word-spacing:5px;
+	font-weight:bolder;
+	background-image:url('D:/Shital-Ramchandra-Mane/css/IMG/tree-736885__480.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+section{
+    height:300%;
+	width:100%;
+	color:red;
+	background-color:yellow;
+}

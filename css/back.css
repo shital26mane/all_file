@@ -1,0 +1,29 @@
+.box-1{
+	width:100%;
+	height:100px;
+	background-size:100%;
+	letter-spacing:5x;
+	letter-spacing:2px;
+	font-weight:bolder;
+	text-shadow:2px 2px red;
+	font-size:30px;
+}
+
+.box-2{
+	width:100%;
+	height:600px;
+	background-image: url('https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+.box-3{
+	width:100%;
+	height:200px;
+	letter-spacing:2px;
+	font-weight:bolder;
+	text-shadow:2px 2px blue;
+	font-size:30px;
+     background-color:red;
+}

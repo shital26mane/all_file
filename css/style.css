@@ -1,0 +1,13 @@
+div{
+height:500px;
+width:600px;
+background-color:red;
+font-size:4rem;
+}
+
+section{
+height:300px;
+width:300px;
+background-color:blue;
+font-size:3rem;		
+}

@@ -1,0 +1,49 @@
+*{font-size:40px;color:white;}
+.box-1{
+	width:19%;
+	height:250px;
+	float:left ;
+	clear: ;
+	margin:0.5% ;
+	background-color:red;
+}
+.box-2{
+	width:19%;
+	height:250px;
+	float:left;
+	clear: ;
+	margin: 0.5%;
+	background-color:black;
+}
+.box-3{
+	width:19%;
+	height:250px;
+	float:both;
+	clear:both;
+	margin:0.5% ;
+	background-color:gray ;
+}
+.box-4{
+	width:19%;
+	height:250px;
+	float:right;
+	clear: ;
+	margin: 0.5%;
+	background-color:blue;
+}
+.box-5{
+	width:19%;
+	height:250px;
+	float:right;
+	clear: ;
+	margin:0.5%;
+	background-color:yellow ;
+}
+.box-6{
+	width:19%;
+	height:250px;
+	float:left;
+	clear:both ;
+	margin:0.5%;
+	background-color:pink;
+}

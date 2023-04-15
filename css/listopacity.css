@@ -1,0 +1,9 @@
+nav ul li{
+	list-style-image:url(D:/Shital-Ramchandra-Mane/css/IMG/arrow.png);
+	list-style-position:inside;
+}
+
+ol li{
+	list-style:upper-latin;
+	opacity:0.4;
+}

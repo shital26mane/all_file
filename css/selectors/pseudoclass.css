@@ -1,0 +1,21 @@
+ul li{
+  display:inline;
+  margin:0px 20px 0px 20px;
+}
+
+li a:link{
+	color:pink;
+}
+li a:active{
+	color:yellow;
+}
+
+li a:visited{
+	color:orangered;
+}
+
+li a:hover{
+	color:white;
+	background-color:blue;
+	padding:10px;
+}

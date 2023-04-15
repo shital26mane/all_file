@@ -1,0 +1,27 @@
+body{
+	display:flex;
+	/* flex-wrap:wrap; */
+}
+.container{
+	height:100vh;
+	/* background-color:red; */
+	display:flex;
+	flex-wrap:wrap;
+	/* justify-content:flex-start; */
+	/* justify-content:flex-end; */
+	/* justify-content:left; */
+	/* justify-content:right; */
+	/* /justify-content:space-between; */
+	/* align-items:start; */
+	/* align-items:end; */
+	/* align-items:center; */
+	/* align-items:baseline; */
+}
+
+.child{
+	height:200px;
+	width:300px;
+	margin:5px;
+	background-color:red;
+	/* align-items:baseline; */
+}

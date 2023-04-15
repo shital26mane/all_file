@@ -1,0 +1,134 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@media only screen and (max-width:600px){
+	.container{
+     height:100vh;
+	 background-color:yellow;
+	 display:grid;
+	 grid-template-areas:"header header header header" "left left right  right"
+	   "footer footer footer footer ";
+}
+.header{
+     height:100px;
+	 background-color:red;
+	 grid-area:header;
+}
+.left{
+     height:470px;
+	 background-color:gray;
+	 grid-area:left;
+}
+
+.right{
+     height:470px;
+	 background-color:green;
+	 grid-area:right;
+}
+
+.footer{
+     height:100px;
+	 background-color:blue;
+     grid-area:footer;
+}
+}
+
+@media only screen and (max-width:768px){
+.container{
+     height:100vh;
+	 background-color:yellow;
+	 display:grid;
+	 grid-template-areas:"header header header header" "left left right  right"
+	   "footer footer footer footer ";
+}
+.header{
+     height:100px;
+	 background-color:red;
+	 grid-area:header;
+}
+.left{
+     height:470px;
+	 background-color:gray;
+	 grid-area:left;
+}
+
+.right{
+     height:470px;
+	 background-color:green;
+	 grid-area:right;
+}
+
+.footer{
+     height:100px;
+	 background-color:blue;
+     grid-area:footer;
+}
+}
+
+@media only screen and (min-width:1024px){
+		.container{
+     height:100vh;
+	 background-color:yellow;
+	 display:grid;
+	 grid-template-areas:"header header header header" "left left right  right"
+	   "footer footer footer footer ";
+}
+.header{
+     height:100px;
+	 background-color:red;
+	 grid-area:header;
+}
+.left{
+     height:600px;
+	 background-color:gray;
+	 grid-area:left;
+}
+
+.right{
+     height:600px;
+	 background-color:green;
+	 grid-area:right;
+}
+
+.footer{
+     height:100px;
+	 background-color:blue;
+     grid-area:footer;
+}
+}
+
+
+@media only screen and (min-width:1400px){
+.container{
+     height:100vh;
+	 background-color:yellow;
+	 display:grid;
+	 grid-template-areas:"header header header header" "left left right  right"
+	   "footer footer footer footer ";
+}
+.header{
+     height:150px;
+	 background-color:red;
+	 grid-area:header;
+}
+.left{
+     height:650px;
+	 background-color:gray;
+	 grid-area:left;
+}
+
+.right{
+     height:650px;
+	 background-color:green;
+	 grid-area:right;
+}
+
+.footer{
+     height:150px;
+	 background-color:blue;
+     grid-area:footer;
+}
+}
+
+

@@ -1,0 +1,11 @@
+ol li{
+	list-style-position:inside;
+	list-style-image:url('D:/Shital-Ramchandra-Mane/css/IMG/arrow-right-circle-.png');
+	list-style:upper-roman;
+	color:red;
+}
+
+li ul li{
+	opacity:0.5;
+	list-style:decimal;
+}

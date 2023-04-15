@@ -1,0 +1,12 @@
+li,a{
+   color:black;
+   text-shadow:2px 2px red;
+   font-size:30pzx;
+}
+
+div{
+	//background-color:red;
+	//background-image:url('D:/Shital-Ramchandra-Mane/css/IMG/16-BX938289.jpg');
+	background-position:fixed;
+	background-repeat:no-repeat;
+}  

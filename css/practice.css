@@ -1,0 +1,45 @@
+.row{
+   height:500px;
+   width:100%;
+   background-image:url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');
+   background-attachment:fixed;
+   background-position:center;
+    background-size:100%;
+	position:relative;
+}
+.row-1{
+	height:70px;
+	width:100%;
+}
+ul li{
+  display:inline;
+  margin:0px 25px 0px 25px;
+}
+.row-1:hover{
+	color:pink;
+	background-color:white;
+}
+li a:link{
+	color:pink;
+}
+li a:active{
+	color:yellow;
+}
+
+li a:visited{
+	color:orangered;
+}
+
+li a:hover{
+	color:white;
+	background-color:blue;
+	padding:10px;
+	border-radius:10px;
+}
+.row-2{
+	height:60px;
+	width:100%;
+	background-color:red;
+	position:absolute;
+	top:90%;
+}

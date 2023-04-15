@@ -1,0 +1,137 @@
+0)computer about images hd for banner :- 
+https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/64/715624af3fe5286.jpg
+
+1)Data Science
+ :- https://assets-global.website-files.com/620d42e86cb8ecb3f739e579/620d42e96cb8ecd92739eae6_4dda7c5dc3564bce88dfa5114c53a774.png
+ 
+ What is Data Science?
+Data science enables businesses to process huge amounts of structured and unstructured big data to detect patterns. 
+This in turn allows companies to increase efficiencies, manage costs, identify new market opportunities, and boost their market advantage.
+
+Asking a personal assistant like Alexa or Siri for a recommendation demands data science.
+ So does operating a self-driving car, 
+using a search engine that provides useful results, 
+or talking to a chatbot for customer service. 
+These are all real-life applications for data science
+
+
+
+
+2)devops with aws
+:- https://www.eternalsoftsolutions.com/blog/wp-content/uploads/2020/04/AWS-DevOps-Tools-and-Features.jpg
+
+
+DevOps Toolchain
+
+The following is a list of tools used at various DevOps lifecycle stages.
+
+Plan: it helps define business value and requirements.
+Tools: jira or Git to help track known issues and perform project management.
+Code: This phase involves software design and the creation of software code.
+Tools: GitHub, GitLab, Bitbucket, or Stash.
+Build: In this phase, you manage software builds and versions, and use automated tools to help compile and package code for future release to production. You use source code repositories or package repositories that also “package” infrastructure needed for product release.
+Tools: Docker, Ansible, Puppet, Chef, Gradle, Maven, or JFrog Artifactory.
+Test: It involves continuous testing (manual or automated) to ensure proper code quality.
+Tools: JUnit, Codeception, Selenium, Vagrant, TestNG, or BlazeMeter.
+Deploy: This phase can include tools that help manage, coordinate, schedule, and automate product releases into production.
+Tools: Puppet, Chef, Ansible, Jenkins, Kubernetes, OpenShift, OpenStack, Docker, or Jira
+Operate: This phase manages software during production.
+Tools: Ansible, Puppet, PowerShell, Chef, Salt, or Otter.
+Monitor: In this phase involves identifying and collecting information about
+issues from a specific software release in production.
+Tools: New Relic, Datadog, Grafana, Wireshark, splunk, Nagios, or Slack
+
+3)data analytics
+:- https://www.netcov.com/wp-content/pubfiles/2020/10/shutterstock_277915391.jpg
+
+What is data analytics?
+The term data analytics broadly references the processes of collecting and assessing various sets of information.
+Multiple techniques can be employed to extract data and analyze patterns and trends that contribute to practical insight, inform further research, or decide on effective business strategies. 
+Many of these techniques use intricate systems or software that can fuse automation with machine-learning algorithms and various other modalities.
+
+Data analytics incorporates a wide diversity of methods and processes that can render it a difficult concept to define accurately. 
+Towards that effort, a few examples of data analysis types can assist in understanding the numerous facets of data analytics.
+
+Predictive analysis is a method of analyzing data that seeks to offer foresight about future events or outcomes. 
+Data previously derived from past analysis is assessed and reported to provide predictions for forthcoming options. 
+For instance, a business attempting to predict sales for the coming year will turn to data about past sales in an effort at foresight that can derive actionable decisions. 
+Predictive analytics can also be applied to more complex predictions relating to qualified leads, risk assessment, or customer satisfaction.
+
+Descriptive analysis has a primary focus of providing a report on events or outcomes that have previously occurred. 
+By analyzing past data on a specific subject, descriptive analysis can portray what the data indicates. 
+It is common to use descriptive analysis to assess key performance indicators (KPI), revenue, sales leads, and various other vital business components.
+
+4)software testing
+:- https://thumbs.dreamstime.com/b/software-testing-internet-business-technology-concept-143071525.jpg
+
+
+What is software testing basically?
+Software testing is basically quality control about a product or service. 
+Or as the following definition puts it: “Testing is the process of evaluating a system or its component(s) 
+with the intent to find whether it satisfies the specified requirements or not.
+
+What is software testing and types?
+
+In software testing, we also have some other types of testing that are not part of any above discussed testing, 
+but those testing are required while testing any software or an application. 
+Smoke Testing. Sanity Testing. Regression Testing. User Acceptance Testing.
+
+5)Angular
+:- https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg
+
+What is Angular?
+This topic can help you understand Angular: what Angular is, what advantages it provides, 
+and what you might expect as you start to build your applications.
+
+Angular is a development platform, built on TypeScript. As a platform, Angular includes:
+
+A component-based framework for building scalable web applications
+A collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, 
+client-server communication, and more
+A suite of developer tools to help you develop, build, test, and update your code
+
+
+6) springboot
+:- https://miro.medium.com/max/500/1*AbiX4LwtSNozoyfypcKvEg.png
+
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+
+We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. 
+Most Spring Boot applications need minimal Spring configuration.
+
+If you’re looking for information about a specific version, or instructions about how to upgrade from an earlier release, 
+check out the project release notes section on our wiki.
+
+7)Oracle
+:- https://images.credly.com/images/de9f4975-5ac3-4d39-914e-f733121683e1/Oracle_Org.png
+
+What is Oracle?
+Oracle database is a relational database management system (RDBMS) from Oracle Corporation. 
+This article will explain a complete overview of the Oracle database, features, history, and editions.
+Before discussing the oracle, we will first need to know about the database.
+
+
+8) Java
+:- https://www.gcreddy.com/wp-content/uploads/2021/07/Java-Programming-Language.png
+
+Java Tutorial, Java Programming Environment Setup, Java Syntax, Java Language Fundamentals, and Java Object-Oriented Programming.
+
+Java Programming language was developed by James Gosling with his team (Java Team, also known as Green Team) in 1995 for Sun Microsystems, later Java was acquired by Oracle in 2010.
+
+Java is a General-purpose programming language, to be used for writing software in the widest variety of application domains.
+
+9)Python
+:- https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png
+
+What is Python Coding?
+
+Python is such a popular programming language that even people outside of tech have likely heard of it before. 
+But compared to other popular coding languages like Java and C++, what exactly makes Python different?
+
+In this article, we'll explain just that to help parents, students, and new coders better understand what Python is. 
+Continue reading to learn more about Python's general characteristics, real world applications, pros and cons, and how to get started learning Python! 
+
+
+
+
+

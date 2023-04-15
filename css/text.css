@@ -1,0 +1,37 @@
+h1{
+	text-align:center;
+	background-color:yellow;
+	text-transform:uppercase;
+	//text-transform:capitalize;
+	//text-transform:lowercase;
+	text-shadow:2px 2px red;
+	letter-spacing:2px;
+	word-spacing:5px;
+	text-decoration:underline;
+}
+
+h1>span{
+	color:blue;
+	font-style:italic;
+}
+
+p{
+	text-transform:capitalize;
+	text-align:center;
+	font-weight:bolder;
+	//text-decoration:overline;
+}
+
+li,a{
+	text-align:center;
+	//text-shadow:2px 2px red;
+	//text-decoration:strikethrough;
+}	
+
+a{
+	text-decoration:underline;
+}
+
+span{
+	color:red;
+}

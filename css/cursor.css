@@ -1,0 +1,108 @@
+.box-1{
+	cursor:alias;
+}
+.box-2{
+	cursor:all-scroll;
+}
+.box-3{
+	cursor:auto;
+}
+.box-4{
+	cursor:cell;
+}
+.box-5{
+	cursor:col-resize;
+}
+.box-6{
+	cursor:context-menu;
+}
+.box-7{
+	cursor:copy;
+}
+.box-8{
+	cursor:crosshair;
+}
+.box-9{
+	cursor:default;	
+}
+.box-10{
+	cursor:e-resize;
+}
+.box-11{
+	cursor:ew-resize;
+}
+.box-12{
+	cursor:grab;
+}
+.box-13{
+	cursor:grabbing;
+}
+.box-14{
+	cursor:help;
+}
+.box-15{
+	cursor:move;
+}
+.box-16{
+	cursor:n-resize;
+}
+.box-17{
+	cursor:ne-resize;
+}
+.box-18{
+	cursor:nesw-resize;
+}
+.box-19{
+	cursor:ns-resize;
+}
+.box-20{
+	cursor:nw-resize;
+}
+.box-21{
+	cursor:nwse-resize;
+}
+.box-22{
+	cursor:no-drop;
+}
+.box-23{
+	cursor:none;
+}
+.box-24{
+	cursor:not-allowed;
+}
+.box-25{
+	cursor:pointer;
+}
+.box-26{
+	cursor:progress;
+}
+.box-27{
+	cursor:row-resize;
+}
+.box-28{
+	cursor:s-resize;
+}
+.box-29{
+	cursor:se-resize;
+}
+.box-30{
+	cursor:sw-resize;
+}
+.box-31{
+	cursor:text;
+}
+.box-32{
+	cursor:url(D:/Shital-Ramchandra-Mane/css/IMG/img.png),auto;
+}
+.box-33{
+	cursor:w-resize;
+}
+.box-34{
+	cursor:wait;
+}
+.box-35{
+	cursor:zoom-in;
+}
+.box-36{
+	cursor:zoom-out;
+}

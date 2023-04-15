@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+</head>
+<body>
+    <table align="center">
+        <h2 align="center"> Survey Form</h2>
+        <caption><b><i> Let us know we can improve freeCodeCamp </i></b></caption>
+        
+        <thead>
+            <tr>
+                <td align="end"> name</td>
+                <td> <input type="text" placeholder="enter your name" pattern="[a-z A-Z]+$" required> </td>
+            </tr>
+            <tr>
+                <td align="end"> email </td>
+                <td> <input type="email" placeholder="enter your email" required></td>
+            </tr>
+            <tr>
+                <td align="end">age:</td>
+                <td><input type="number" placeholder="Age" pattern="[0-9]+$" required></td>
+            </tr>
+            <tr>
+                <td align="end"> Which option best described your current role ?</td> 
+                <td><select name="role" >
+                    <option value="student">student</option>
+                    <option value="employee">employee</option>
+                </select> </td><br><br>
+            </tr>
+            <tr>
+                <td align="end">How likely is that you would recommend freeCodeCamp to a friend ?</td>
+                <td><input type="radio" name="freecodecamp" value="Definitely">Definitely <br> <input type="radio" name="freecodecamp" value="Maybe">Maybe <br> <input type="radio" name="freecodecamp" value="Not sure">Not sure </td>
+            </tr>
+            <tr>
+                <td align="end"> What do you like most it FCC: </td>
+                <td><select name="FCC">
+                    <option value="select an option">select an option</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="end">Things that should be improved in the future (check all the apply):</td>
+                <td><input type="checkbox" name="front_end_projects" value="front-end projects">front-end projects <br> <input type="checkbox" name="Back_end_projects" value="Back-end projects">Back-end projects <br> <input type="checkbox" name="Data_visualization" value="Data visualization">Data visualization </td> 
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

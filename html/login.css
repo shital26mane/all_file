@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+div{
+	//height:600px;
+	//width:400px;
+   font-family:'Oswald', sans-serif;
+   font-size:30px;
+   font-variant:small-caps;
+   background-color:red;
+   color:blue;   
+   //background-image:url('D:/Shital-Ramchandra-Mane/css/IMG/tree-736885__480.jpg');
+  // background-position:center;
+  background-repeat:no-repeat;
+  background-size:100%;
+  
+}
+
+section{
+	color:red;
+   background-image:url('D:/Shital-Ramchandra-Mane/css/IMG/16-BX938289.jpg');
+}
