@@ -1,0 +1,27 @@
+*{
+    margin: opx;
+    padding: 0px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-image: url('https://thumbs.dreamstime.com/b/frangipani-flowers-10997030.jpg');
+    animation-name: image;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    position: relative;
+}
+@keyframes image{
+    0%{left: 0px; top: opx;}
+    25%{background-image: url('https://i.pinimg.com/736x/4e/3f/61/4e3f61a18a7118974423498fd28eb799.jpg');
+        left: 500px; top: 0px;}
+    50%{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQELfLKUZJRilLitp4DgLkCLNaLQFCCcAc2mrBPlGMmdw&s');
+            left: 500px; top: 100px;}
+    75%{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2q5uPTOx9MV2LkvWzWEzX_mhNrRJ2teDnSwhi-giY_w&s');
+            left: 0px; top: 100px;}
+     100%{background-image: url('https://i.pinimg.com/736x/4e/3f/61/4e3f61a18a7118974423498fd28eb799.jpg');
+              left: 0px; top: 0px;}
+}
