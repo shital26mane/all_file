@@ -1,0 +1,24 @@
+let a=prompt("enter value:"); 
+a=parseInt(a);
+let b=prompt("enter value:"); 
+b=parseInt(b);
+let add=a+b;
+let sub=a-b;
+let multi=a*b;
+let div=a/b;
+let mod=a%b;
+document.write("a ="+a); 
+document.write("<br>"); 
+document.write("b ="+b); 
+document.write("<br>"); 
+document.write("the addition of two number is :"+add);
+document.write("<br>");
+document.write("the substraction of two number is :"+sub);
+document.write("<br>");
+document.write("the multiplication of two number is :"+multi);
+document.write("<br>");
+document.write("the division of two number is :"+div);
+document.write("<br>");
+document.write("the modules of two number is :"+mod);
+document.write("<br>");
+    

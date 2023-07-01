@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>higher order function</title>
+</head>
+<body>
+    <script>
+        // function fun(){
+        //     return(function fun1(){
+        //         a=22,b=10
+        //         document.write(a+b);
+        //     }())
+        // }
+            fun();
+            
+            function fun(){
+               return function fun1(){
+                document.write("this is fun1 function")
+                }
+                return function fun2(){
+                    document.write("this is fun2 funcion")
+                }
+        }
+        fun1=fun()
+        fun2=fun1()
+        fun2()
+    </script>
+</body>
+</html>
+
+
+    
+

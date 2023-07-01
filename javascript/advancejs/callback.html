@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call back function</title>
+</head>
+<body>
+    <script>
+        
+     let a=function(a,b){
+        document.write(a+b+"<br>")
+        document.write(a-b+"<br>")
+        document.write(a*b+"<br>")
+        document.write(a/b+"<br>")
+     }
+    
+   let b=function(x,y){
+    document.write(x+"<br>")
+    y(15,a);
+   }
+
+   let c=function(n,m){
+    document.write(n+"<br>");
+    m(30,5);
+   }
+   b(10,c);
+
+
+
+//    let a=function(x,y){
+//     document.write(x)
+//     y(12,23)
+//    }
+//    let b=function(n,m){
+//     document.write(n)
+//     m(11,55)
+//    }
+//    a(10,b)
+
+
+// let a=function(a,b){
+// a(11,22);
+// b(20,34)
+// }
+// let b=function add(x,y){
+//     document.write("addition is:"+(x+y)+"<br>")
+// }
+// let c=function mul(n,m){
+//     document.write("multiplication is:"+(n*m))
+// }
+// a(b,c)
+
+
+    </script>
+</body>
+</html>

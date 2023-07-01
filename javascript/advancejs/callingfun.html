@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calling function</title>
+</head>
+<body>
+    <script>
+    function fun(a,b){
+        document.write("call by value"+"<br>")//calling a method with parameter as vlues through the argument value is passed to the parameter
+        document.write(a+b);
+    }
+    let c=prompt("enter value1")
+    c=parseInt(c)
+    let d=prompt("enter value2")
+    d=parseInt(d)
+
+    fun(c,d)
+
+
+    // function fun(obj){
+    //     document.write("call by reference"+"<br>")//calling a method with parameter as reference through the argument reference is passed to the parameter
+    //     document.write(obj.name)
+    //     document.write(obj.no)
+    //     document.write(obj.email)
+    // }
+    // let a={
+    //     name:"shital",
+    //     no:12356,
+    //     email:"shital@2001gmail.com"
+    // }
+    // fun(a);
+
+
+    </script>
+</body>
+</html>

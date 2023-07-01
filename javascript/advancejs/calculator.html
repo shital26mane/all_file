@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcultor</title>
+</head>
+<body>
+    <script>
+        function calculator(add,sub,div,mul){
+            add(11,22);
+            sub(200,100);
+            div(22,11);
+            mul(12,30);
+        }
+        function add(a,b){
+            document.write("addtion is:"+(a+b)+"<br>")
+        }
+        function sub(x,y){
+            document.write("substraction is:"+(x-y)+"<br>")
+        }
+        function div(c,d){
+            document.write("division is:"+(c/d)+"<br>")
+        }
+        function mul(n,m){
+            document.write("multiplication is:"+(n*m)+"<br>")
+        }
+        calculator(add,sub,div,mul);
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe12</title>
+</head>
+<body>
+    <script>
+        let name,ad ,dis ,net   
+        name=prompt("enter name:");
+        ad=prompt("enter address:");
+        let amt=prompt("enter amount:")
+        let x=prompt("enter type of purchase(l/d):")
+        
+        function purchase(){
+         if(x="l"){
+                 if(amt>=0 && amt<=25000){
+                    dis=(amt*0.0)/100
+            }
+            else if(amt>=25001 && amt<=57000){
+                    dis=(amt*5.0)/100
+            }
+            else if(amt>=57001 && amt<=100000){
+                    dis=(amt*7.5)/100
+            }
+            else{
+                    dis=(amt*10)/100
+            } 
+            net=amt-dis;
+            document.write("name:"+name+"<br>"+"address:"+ad+"<br>"+"amount:"+amt+"<br>"+"net ammount:"+net) 
+        }
+            
+        else{
+            if(amt<=25000){
+                    dis=(amt*5.0)/100;
+            }
+            else if(amt>=25001 && amt<=57000){
+                    dis=(amt*7.5)/100;
+            }
+            else if(amt>=57001 && amt<=100000){
+                    dis=(amt*10)/100;
+            }
+            else{
+                    dis=(amt*15)/100;
+            }
+             net=amt-dis;
+            document.write("name:"+name+"<br>"+"address:"+ad+"<br>"+"amount:"+amt+"<br>"+"net ammount:"+net);
+        }
+}
+purchase();
+        
+    </script>
+</body>
+</html>

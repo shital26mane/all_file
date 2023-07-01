@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe13</title>
+</head>
+<body>
+    <script>
+        let age,gender,tincome
+        age=prompt("enter age:")
+        age=parseInt(age);
+        gender=prompt("enter gender:")
+        tincome=prompt("enter texable income:")
+        tincome=parseInt(tincome);
+        let t
+
+        function textincome(){
+            if(age>65 && gender=="female"){
+            document.write("wronge category")
+            }
+            else  if(age<=65 && tincome<=160000){
+                document.write(t)
+            }
+            else if(age<=65 && tincome>160000  && tincome<=500000){
+               t= (tincome-160000)*10/100;
+                document.write(t)
+            }
+            else if(age<=65 && tincome>500000 && tincome<=800000){
+                t=((tincome-500000)*20/100)+34000;
+                document.write(t)
+            }
+            else{
+               t=((age<=65 && tincome-800000)*30/100)+94000;
+                document.write(t)
+            }
+}
+    textincome();
+    </script>
+</body>
+</html>

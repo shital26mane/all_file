@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let d 
+        let tc=prompt("enter total cost")
+        tc=parseInt(tc)
+
+        if(tc<=2000){
+            d=5/100*tc
+        }
+        else if(tc<=2001 && tc<=5000){
+            d=25/100*tc
+        }
+        else if(tc<=5001 && tc<=10000){
+            d=35/100*tc
+        }
+        else{
+            d=50/100*tc
+        }
+        let am=tc-d;
+        document.write("amount payble:"+am);
+    </script>
+</body>
+</html>

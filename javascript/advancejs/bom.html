@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser object model</title>
+</head>
+<body>
+    <button type="button" onclick="a()"> alert check</button>
+    <button type="button" onclick="confi()"> confirm check</button>
+    <button type="button" onclick="o()"> open close check</button>
+    <button type="button" onclick="setTimeout(timeout,3000)">check timeout</button>
+    <button type="button" onclick="setinterval(setinterval)">check interval</button>
+
+    <script>
+        //alert check//
+        function a(){
+        alert('hiiii.....')
+        }
+
+            //confirm check//
+        function confi(){
+       let b=confirm("hello.........")
+
+        if(b){
+            document.write("confirmation is done")
+        }
+        else{
+            document.write("go out")
+        }
+    }
+    
+
+        //open close check//
+        function o(){
+            let c=confirm("please check")
+
+            if(c){
+                open("https://www.amazon.in/")
+            }
+            else{
+                close();
+            }
+        }
+    
+
+            //timeout check//
+            function timeout(){        
+                document.write("hello everyone................")
+                document.write("thanks for waiting.")
+            }
+
+            function setinterval(){
+                document.write("my name is shital")
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+let a=245.5;
+let b=10;
+let add=a+b;
+let sub=a-b;
+let multi=a*b;
+let div=a/b;
+let mod=a%b;
+console.log("addition is:"+(add));
+console.log("substraction is:"+(sub));
+console.log("multiplication is:"+(multi));
+console.log("division is:"+(div));
+console.log("modules is:"+(mod));

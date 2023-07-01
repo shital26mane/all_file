@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+</head>
+
+<body>
+    <script>
+        class salary {
+            name; address; subspe; msalary; itax; phone;
+            input() 
+            {
+                this.name = prompt('enter your this.name:')
+                this.address = prompt('enter your: this.address')
+                this.subspe = prompt('enter subject specialization:')
+                this.phone = prompt('enter this.phone no:')
+                this.msalary = parseInt(prompt('enter moonthly salary:'))
+            }
+            display()
+             {
+                document.write('this.name:' + this.name+"<br>")
+                document.write('this.address:' + this.address+"<br>")
+                document.write('subject specialization:' + this.subspe+"<br>")
+                document.write('this.phone:' + this.phone+"<br>")
+                document.write('monthly salary:' + this.msalary+"<br>")
+            }
+            calculate() {
+                let asal;
+                asal=12*this.msalary
+                if(asal>175000){
+                    this.it=5/100*(asal-175000)
+                    document.write("income tax:"+this.it)
+                }
+                else{
+                    this.it=0
+                }
+            }
+        }
+        let s=new salary
+        s.input()
+        s.display()
+        s.calculate()
+    </script>
+</body>
+
+</html>
